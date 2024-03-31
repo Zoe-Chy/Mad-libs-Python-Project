@@ -8,4 +8,5 @@ madlib = f"I really enjoy doing makeup because it is {adj}. \
 It makes me excited because I get to {verb} my creative side. \
 I hope to one day be as good at it as {famous_person}."
 
+# For example:
 print(madlib)
