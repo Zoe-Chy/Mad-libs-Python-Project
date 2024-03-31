@@ -1,0 +1,11 @@
+# This project will use string concatenation and f-string formatting to create a short Mad lib.
+
+adj = input("Adjective: ")
+verb = input("Verb: ")
+famous_person = input("Person: ")
+
+madlib = f"I really enjoy doing makeup because it is {adj}. \
+It makes me excited because I get to {verb} my creative side. \
+I hope to one day be as good at it as {famous_person}."
+
+print(madlib)
