@@ -1,0 +1,33 @@
+# Enter a number between 1 and 3 with 3 meaning rock, 2 meaning paper, and 1 meaning scissor and this function will produce the result of a game of rock, paper, scissors against the computer.
+import random
+
+def the_game(turn):
+    rock = 3
+    paper = 2
+    scissor = 1
+    computers_hand = random.randint(1,3)
+    print(computers_hand)
+    if computers_hand == rock:
+        if turn == rock:
+            return "Tie"
+        elif turn == paper:
+            return "You Win"
+        elif turn == scissor:
+            return "Computer Wins"
+    if computers_hand == paper:
+            if turn == rock:
+                return "Computer Wins"
+            elif turn == paper:
+                return "Tie"
+            elif turn == scissor:
+                return "You Win"
+    if computers_hand == scissor:
+            if turn == rock:
+                return "You Win"
+            elif turn == paper:
+                return "Computer Wins"
+            elif turn == scissor:
+                return "Tie"
+            
+# For example:
+print(the_game(3))
