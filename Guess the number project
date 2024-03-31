@@ -1,0 +1,8 @@
+# This function will make the computer guess a random number.
+import random
+
+def guess_the_number(n):
+    return random.randint(0,n)
+
+# For example:
+print(guess_the_number(100))
